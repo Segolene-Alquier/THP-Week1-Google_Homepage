@@ -1,0 +1,174 @@
+body {
+  font-family: arial, sans-serif;
+  width: 100%;
+}
+
+.navigateur {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    max-width: 400px;
+    margin-right: 0;
+    margin-left: auto;
+    height:24px;
+    line-height:24px;
+}
+
+.lnav {
+     margin-left: 8px;
+     font-size: 13px;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#connexion {
+  background-color: #4683ea;
+  color: #FFFFFF;
+  font-weight: bold;
+  border: 1px solid #4285f4;
+  border-radius: 2px;
+  padding: 2px;
+  font-size: 13px;
+  text-align: center;
+  padding: 0 12px;
+  align-items: center;
+  height: 28px;
+  line-height: 28px;
+}
+
+#bouton_central {
+  margin-left: 320px;
+  margin-top: 70px;
+  width: 600px;
+  height: 270px;
+  font-size: 40px;
+  border-style:dotted;
+  color: #666;
+}
+
+#centre {
+  display: none;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#recherche {
+    align-self: center;
+    height: 40px;
+    position: absolute;
+    top: 250px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+#logo {
+    align-self: center;
+    height: 92px;
+    position: absolute;
+    top: 130px;
+}
+
+.bouton1 {
+    background-color: #f8f8f8;
+    color: #666;
+    font-weight: bold;
+    border-radius: 2px;
+    margin:10px;
+    padding: 6px;
+    position: absolute;
+    top: 310px;
+    left: 460px;
+    float: left;
+    height: 36px;
+    width: 155px;
+    font-size: 13px;
+}
+
+.bouton1:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba (0,0,0,0.1);
+    color: #222;
+}
+
+.bouton2 {
+  background-color: #f8f8f8;
+  font-weight: bold;
+  border-radius: 2px;
+  margin:10px;
+  padding: 6px;
+  position: absolute;
+  top: 310px;
+  left:650px;
+  float: right;
+  height: 36px;
+  width: 155px;
+  color: #666;
+  font-size: 13px;
+}
+
+.bouton2:hover {
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px rgba (0,0,0,0.1);
+  color: #222;
+}
+
+#france {
+  position: absolute;
+  bottom: 36px;
+  background: #f2f2f2;
+  height: 35px;
+  line-height: 35px;
+  width: 100%;
+  border-top: 1px solid #e4e4e4;
+  padding-left: 27px;
+  color: #666;
+  vertical-align: middle;
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    background: #f2f2f2;
+    height: 35px;
+    width: 100%;
+    border-top: 1px solid #e4e4e4;
+    padding-left: 27px;
+    padding-right: 27px;
+}
+
+.footer1, .footer2 {
+   display: flex;
+    flex-direction: row;
+    width: 50%;
+    flex-wrap: nowrap;
+    margin: auto;
+}
+
+.footer1 {
+    float:left;
+    font-size: 10pt;
+    color: #666;
+}
+
+.footer2 {
+    justify-content: flex-end;
+    font-size: 10pt;
+    color: #666;
+}
+
+.lfoot {
+    margin: 4px;
+}
